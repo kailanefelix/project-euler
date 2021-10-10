@@ -1,14 +1,4 @@
-def divisors(n):
-    yield 1
-
-    sqrt = int(n ** 0.5)
-    if sqrt * sqrt == n:
-        yield sqrt
-
-    for i in range(2, sqrt):
-        if n % i == 0:
-            yield i
-            yield n // i
+from numbertools import divisors
 
 total = 0
 for n in range(3, 10001):

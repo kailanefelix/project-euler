@@ -1,5 +1,6 @@
 import itertools
-from euler0xx.primality import is_prime
+
+from numbertools import is_prime
 
 count, total = 0, 0
 numbers = itertools.count(11, step=2)

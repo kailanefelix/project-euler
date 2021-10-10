@@ -1,5 +1,6 @@
 from itertools import permutations
-from primality import is_prime
+
+from numbertools import is_prime
 
 digits = '987654321'
 

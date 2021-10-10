@@ -1,4 +1,4 @@
-from primality import is_prime
+from numbertools import is_prime
 
 limit = 1_000_000
 

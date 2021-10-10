@@ -1,4 +1,4 @@
-from primality import is_prime
+from numbertools import is_prime
 
 count = 1
 n = 1
