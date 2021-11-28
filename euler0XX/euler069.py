@@ -1,5 +1,6 @@
-from primality import is_prime
 from itertools import count
+
+from numbertools import is_prime
 
 max_n, n = 1, 1
 for i in count(2):

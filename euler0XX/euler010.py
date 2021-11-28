@@ -1,4 +1,4 @@
-from primality import is_prime
+from numbertools import is_prime
 
 total = 0
 for i in range(2000000):

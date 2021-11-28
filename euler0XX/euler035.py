@@ -1,5 +1,7 @@
-from primality import is_prime
 import time
+
+from numbertools import is_prime
+
 
 def rotations(s: str):
     for i in range(1, len(s)):
